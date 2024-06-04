@@ -18,9 +18,17 @@ button {
     color: white;
 }
 
-.small-box {
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+div.small-box {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    margin-top: 1em;
+    background-color: white;
+}
+
+div.small-box article {
+    display: table-cell;
+    text-align: center;
+    padding-bottom: 5%;
+    border: 1px solid black;
 }
